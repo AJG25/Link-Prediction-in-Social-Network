@@ -10,14 +10,14 @@ Link Prediction is important in many domains such as recommendation systems, bio
 - Test Set: 1466 links of which 733 exist in the original network (positive examples) and 733 do not exist in the original network (negative examples)
 
 # Methodology
-1. Feature Engineering
+### 1. Feature Engineering
 Features for node pairs were extracted: Common Neighbors, Jaccard Coefficient, Adamic-Adar Index, Preferential Attachment, Katz-Index, Attribute Similarity,
 Resource Allocation Index
-3. Data Preparation
+### 2. Data Preparation
 - Positive examples (Observed links) and Negative Examples (non-observed links)
 - Balanced dataset
 - Train/validation split with 5-cross fold.
-5. Model Selection
+### 3. Model Selection
 -Logistic Regression
 -Gradient Boosting
 -Random Forest Classifier (final model)
@@ -29,6 +29,3 @@ Resource Allocation Index
 -F1 score = 0.876 
 -AUC = 0.93
 Katz-Index was the most predictive feature in selected model followed by Preferential Attatchment and Attribute Similarity.
-# Limitations
-- Katz-Index can be copmutationally heavy
-- Over-realiance on one feature can cause low performance of on other datasets
