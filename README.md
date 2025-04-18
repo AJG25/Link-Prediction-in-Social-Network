@@ -18,14 +18,14 @@ Resource Allocation Index
 - Balanced dataset
 - Train/validation split with 5-cross fold.
 ### 3. Model Selection
--Logistic Regression
--Gradient Boosting
--Random Forest Classifier (final model)
+- Logistic Regression
+- Gradient Boosting
+- Random Forest Classifier (final model)
 
 # Results
--Accuracy = 0.872
--Precision = 0.850
--Recall = 0.903
--F1 score = 0.876 
--AUC = 0.93
+- Accuracy = 0.872
+- Precision = 0.850
+- Recall = 0.903
+- F1 score = 0.876 
+- AUC = 0.93
 Katz-Index was the most predictive feature in selected model followed by Preferential Attatchment and Attribute Similarity.
